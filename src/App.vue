@@ -5,10 +5,10 @@
    const count =ref(0);
 
    const addToCount=()=>{
-    count=count+1;
+    count.value=count.value+1;
    }
    const substractFromCount=()=>{
-    count=count-1;
+    count.value=count.value-1;
    }
 </script>
 
