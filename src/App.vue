@@ -1,6 +1,6 @@
 <!-- Composition API -->
 
-<!-- <script setup>
+<script setup>
    import {ref} from "vue";
    const count =ref(0);
 
@@ -10,11 +10,11 @@
    const substractFromCount=()=>{
     count=count-1;
    }
-</script> -->
+</script>
 
 
 <!-- Option API  -->
-<script>
+<!-- <script>
 export default ({
   data() {
     return {
@@ -30,7 +30,7 @@ export default ({
     }
   }
 })
-</script>
+</script> -->
 <template>
   <main>
     <div>
